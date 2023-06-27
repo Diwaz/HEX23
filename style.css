@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Belanosima', sans-serif;
+}
+
+.mainContainer {
+    width: 100vw;
+}
+
+.upperContainer {
+    height: 100vh;
+    /* background-color: aqua; */
+}
+
+.navbar {
+    width: 100%;
+    /* background-color: red; */
+}
+
+.container {
+    width: 100%;
+    /* background-color: rgba(43, 91, 213, 0.475); */
+    height: 100vh;
+    /* clip-path: polygon(0 0, 55% 0, 30% 100%, 0 100%); */
+    /* clip-path: polygon(55% 0, 100% 0, 100% 100%, 30% 100%); */
+    /* background-color: #0e45d0a9; */
+    /* z-index: 2; */
+}
+
+.hexlogo {
+    width: 100px;
+    height: 100px;
+}
+
+.videoOverlay {
+    position: absolute;
+    z-index: -1;
+    clip-path: polygon(55% 0, 100% 0, 100% 100%, 30% 100%);
+    right: 0;
+    /* bottom: 0; */
+    /* width: 100vw;
+    height: 100vh; */
+}
+
+.landingContainer {
+    /* background-color: blueviolet; */
+    /* height: 100vh; */
+    /* clip-path: polygon(0 0, 58% 0, 37% 100%, 0 100%); */
+    display: flex;
+    /* justify-content: center; */
+    /* padding-top: 20px; */
+    margin-top: 130px;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+
+.hexFont {
+    font-size: 80px;
+    color: #0E44D0;
+}
+
+.hexFont2 {
+    font-size: 30px;
+    color: #0E44D0;
+}
+
+.hexFont3 {
+    font-size: 50px;
+}
+
+.date {
+    color: black
+}
