@@ -46,20 +46,21 @@
 
 .landingContainer {
     /* background-color: blueviolet; */
-    /* height: 100vh; */
+    height: 85%;
     /* clip-path: polygon(0 0, 58% 0, 37% 100%, 0 100%); */
     display: flex;
     /* justify-content: center; */
     /* padding-top: 20px; */
-    margin-top: 130px;
-    justify-content: center;
-    flex-direction: column;
+    /* margin-top: 100px; */
+    justify-content: space-between;
+    padding-right: 100px;
+    flex-direction: row;
     width: 50%;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .hexFont {
-    font-size: 80px;
+    font-size: 100px;
     color: #0E44D0;
 }
 
@@ -73,5 +74,28 @@
 }
 
 .date {
-    color: black
+    color: black;
+    font-size: 120px;
+}
+
+.sponserLogo {
+    font-size: 50px;
+    position: relative;
+    top: 0;
+}
+
+.sideContainer {
+    width: 10%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    /* background-color: #0E44D0; */
+}
+
+.blank {
+    height: 50px;
+    /* background-color: aliceblue; */
+    width: 100%
 }
